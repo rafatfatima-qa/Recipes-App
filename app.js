@@ -1,11 +1,11 @@
-const api = {
-  key: "f95879e078174472b6b4efda661f434d",
-  base: "https://api.spoonacular.com/recipes/",
-  query: "pasta"
-};
+
+  const key = "f95879e078174472b6b4efda661f434d";
+  const base = "https://api.spoonacular.com/recipes";
+  const query = "pasta";
 
 
-fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=f95879e078174472b6b4efda661f434d&query=pasta`)
+
+fetch(`${base}/complexSearch?apiKey=${key}&query=${query}`)
       .then( function (response){
              return response.json();
       }).then (function (recipesArray){
