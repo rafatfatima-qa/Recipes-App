@@ -23,7 +23,7 @@
     align-items: center;
     padding: 10px;
     border:black solid;
-    background-image: linear-gradient(to bottom, #5e48c0, rgba(79, 71, 151, 0.6));
+    background-image: linear-gradient(to bottom, #a296db, rgba(150, 138, 226, 0.6));
     margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
@@ -42,8 +42,14 @@
   }
   
   .recipeTitle {
-    background-color: #5e48c0;
-    padding: 20px 20px 20px 40px;
+    color:#000000;
+    font-weight: bolder;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    background-image: linear-gradient(to top, #5e22d6, rgba(17, 8, 77, 0.6));
+    padding: 20px 20px 20px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 400px;
     height: 200px;
