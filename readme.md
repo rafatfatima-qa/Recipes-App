@@ -1,4 +1,5 @@
-# Javascript-Problems-Solving-Practice
+# Recipe
+treasure App
 - This repo is for JavaScript Problem solving Practice activity.
 - This activity is based on making different weekly projects assigned by the instructor.
 - This week's task is to make a basic RecipeTreasure App.
